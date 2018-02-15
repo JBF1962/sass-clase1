@@ -1,0 +1,15 @@
+body {
+	backcground: red;
+	p{
+		color: yellow;
+	}
+	a{
+		color: silver;
+	}
+}	
+
+$variable: 5px;
+
+p{
+	order: $variable * 2;
+}

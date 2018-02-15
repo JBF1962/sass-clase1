@@ -1,0 +1,17 @@
+body {
+  backcground: red;
+}
+
+body p {
+  color: yellow;
+}
+
+body a {
+  color: silver;
+}
+
+p {
+  -webkit-order: 10px;
+      -ms-flex-order: 10px;
+          order: 10px;
+}
